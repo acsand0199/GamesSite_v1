@@ -1,0 +1,271 @@
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: black;
+            color: #fff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+        }
+
+        header h1 {
+            font-size: 24px;
+            margin: 0;
+        }
+
+        header hr {
+            border: none;
+            height: 2px;
+            background-color: #fff;
+            margin: 5px 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav li {
+            margin-right: 20px;
+            position: relative;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: black;
+            min-width: 160px;
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            padding: 12px 16px;
+            display: block;
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        
+        .quote-hide {
+          display: none;
+        }
+        .quote-box {
+            text-align: center;
+            padding: 2em;
+        }
+        h2 {
+            color: black;
+        }
+        cite {
+            font-size: 80%;
+            color: #999;
+        }
+
+        .play-button {
+            display: inline-block;
+            background-color: #3498db; /* Blue background color */
+            color: #fff; /* White text color */
+            padding: 10px 20px; /* Padding for the button */
+            border-radius: 45%; /* Rounded shape to make it look like a button */
+            text-decoration: none; /* Remove default underline for links */
+        }
+
+        .play-button:hover {
+            background-color: #2980b9; /* Darker blue on hover */
+        }
+
+        #bottom-line {
+            border: 1px solid #ccc; /* Border style for the line */
+            margin-top: 400px; /* Adjust the top margin to control the spacing */
+        }
+
+        #social {
+            position: fixed; /* Fixed position to keep it at the bottom */
+            left: 0; /* Align to the left */
+            bottom: 0; /* Align to the bottom */
+            width: 100%; /* Full width of the viewport */
+            text-align: center; /* Center-align the content horizontally */
+            padding: 10px 0; /* Add some padding for spacing */
+        }
+
+        /* Styles for the social links */
+        #social a {
+            margin: 0 10px; /* Add spacing between social icons */
+            text-decoration: none; /* Remove underlines from links */
+            color: #fff; /* Text color for the links */
+        }
+        
+        #about {
+            display: flex; /* Use flexbox for centering */
+            justify-content: center; /* Center horizontally */
+            height: 100vh; 
+        }
+
+        #innerabout {
+            text-align: center; /* Center text within the content */
+            padding: 20px; /* Add padding for spacing */
+            max-width: 800px
+        }
+        input[type="submit"] {
+            background-color: #3498db;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 18px;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #2980b9;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        textarea {
+            resize: vertical;
+            height: 150px;
+        }
+        contactheader {
+            text-align: center;
+
+        }
+        #register {
+                display: inline-block; /* Make the link a block element */
+                margin-top: 20px; /* Add margin above the link */
+                text-decoration: none; /* Remove underlines from the link */
+                background-color: #3498db; /* Background color for the link */
+                color: #fff; /* Text color for the link */
+                padding: 10px 20px; /* Padding for the link */
+                border-radius: 5px; /* Rounded corners */
+        }
+        #showFormButton2 {
+            background-color: #3498db; /* Background color */
+            color: white; /* Text color */
+            border: none; /* Remove default border */
+            padding: 10px 20px; /* Add padding */
+            cursor: pointer; /* Change cursor to pointer on hover */
+            border-radius: 5px; /* Add rounded corners */
+            font-size: 16px; /* Font size */
+            margin-top: 10px;
+        }
+
+        /* Style the button on hover */
+        #showFormButton2:hover {
+            background-color: #2980b9; /* Darker blue on hover */
+        }
+        #showFormButton {
+            background-color: #3498db; /* Background color */
+            color: white; /* Text color */
+            border: none; /* Remove default border */
+            padding: 10px 20px; /* Add padding */
+            cursor: pointer; /* Change cursor to pointer on hover */
+            border-radius: 5px; /* Add rounded corners */
+            font-size: 16px; /* Font size */
+            margin-top: 10px;
+        }
+
+        /* Style the button on hover */
+        #showFormButton:hover {
+            background-color: #2980b9; /* Darker blue on hover */
+        }
+
+        #startButton {
+            background-color: #3498db;
+            color: #ffffff;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+
+        /* Hover effect */
+        #startButton:hover {
+            background-color: #2980b9;
+        }
+        #submit-button {
+            background-color: #3498db;
+            color: #ffffff;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+
+        /* Hover effect */
+        #submit-button:hover {
+            background-color: #2980b9;
+        }
+        #play-again-button {
+            background-color: #3498db;
+            color: #ffffff;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+
+        /* Hover effect */
+        #play-again-button:hover {
+            background-color: #2980b9;
+        }
+
+        .copyright {
+            text-align: left;
+            background-color: white;
+            color: black;
+            padding: 10px 0;
+        }
+
+        .copyright img {
+            width: 20px; /* Adjust the width of the copyright logo */
+        }
+
+        .copyright-text {
+            display: inline-block;
+            margin-left: 10px;
+        }
+
+
+

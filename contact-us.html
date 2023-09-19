@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play 2 Learn</title>
+    <link rel="stylesheet" type="text/css" href="CSS/styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Play 2 Learn</h1>
+        <hr>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li class="dropdown">
+                    <a href="#">Games</a>
+                    <div class="dropdown-content">
+                        <a href="games/anagram-hunt.html">Anagram Hunt</a>
+                        <a href="games/math-facts.html">Math Facts Practice</a>
+                    </div>
+                </li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1 id="Contactheader">Contact Us</h1>
+    <form id="contact-form">
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="subject">Subject:</label>
+        <input type="text" id="subject" name="subject" required><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+    <script>
+        // JavaScript to handle form submission
+        document.getElementById("contact-form").addEventListener("submit", function (event) {
+            event.preventDefault(); 
+
+            // Display an alert message
+            alert("Form submitted! Thank you for contacting us.");
+        });
+    </script>
+</body>
+</html>
+    <hr id="bottom-line">
+    <div class="copyright">
+        <span class="copyright-text">&copy; 2023 Play2Learn</span>
+    </div>
+    <div id="social">
+         <a href="contact-us.html">
+        <img src="img/icon-contact-us.png" alt="Description of the image">
+        </a>
+        <a href="https://instagram.com">
+        <img src="img/icon-instagram.png" alt="Description of the image">
+        </a>
+        <a href="https://twitter.com">
+        <img src="img/icon-twitter.png" alt="Description of the image">
+        </a>
+        <a href="https://facebook.com">
+        <img src="img/icon-facebook.png" alt="Description of the image">
+        </a>
+    </div>
+
+
+</body>
+</html>

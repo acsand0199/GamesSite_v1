@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play 2 Learn</title>
+    <link rel="stylesheet" type="text/css" href="CSS/styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Play 2 Learn</h1>
+        <hr>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li class="dropdown">
+                    <a href="#">Games</a>
+                    <div class="dropdown-content">
+                        <a href="games/anagram-hunt.html">Anagram Hunt</a>
+                        <a href="games/math-facts.html">Math Facts Practice</a>
+                    </div>
+                </li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="page1">
+    <h1 id="Contactheader">Login</h1>
+    <form id="contact-form1">
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="password">Password:</label>
+        <input type="text" id="password" name="password" required><br><br>
+
+        <input type="submit" value="Login">
+    </form>
+    <button id="showFormButton">Need an account? Register</button>
+    </script>
+    </div>
+    <div id="page2" style="display: none;">
+    <h1 id="Contactheader">Register</h1>
+    <form id="contact-form2">
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="password">Password:</label>
+        <input type="text" id="password" name="password" required><br><br>
+
+        <label for="repeatpassword">Repeat Password:</label>
+        <input type="text" id="repeatpassword" name="repeatpassword" required><br><br>
+
+        <label for="ageAndGamesCheckbox">
+            <input type="checkbox" id="ageAndGamesCheckbox" required>
+            I am over 13 and like to play games
+            </label>
+
+        <input type="submit" value="Register" id="submitButton">
+    </form>
+
+    <script>
+        const loginForm = document.getElementById('contact-form1');
+        const registrationForm = document.getElementById('contact-form2');
+    
+        loginForm.addEventListener('submit', function (e) {
+            e.preventDefault(); 
+            alert('Form submitted');
+            
+        });
+    
+        registrationForm.addEventListener('submit', function (e) {
+            e.preventDefault(); 
+            alert('Form submitted');
+            
+        });
+    </script>
+    
+    <button id="showFormButton2">Have an account? Login</button>
+    </div>
+    <script src="js/show_register.js"></script>
+    <hr id="bottom-line">
+    <div class="copyright">
+        <span class="copyright-text">&copy; 2023 Play2Learn</span>
+    </div>
+    <div id="social">
+            <a href="contact-us.html">
+            <img src="img/icon-contact-us.png" alt="Description of the image">
+            </a>
+            <a href="https://instagram.com">
+            <img src="img/icon-instagram.png" alt="Description of the image">
+            </a>
+            <a href="https://twitter.com">
+            <img src="img/icon-twitter.png" alt="Description of the image">
+            </a>
+            <a href="https://facebook.com">
+            <img src="img/icon-facebook.png" alt="Description of the image">
+            </a>
+    </div>
+
+
+</body>
+</html>
